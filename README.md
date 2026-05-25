@@ -1,7 +1,7 @@
 
 # morse_ODROID_C2
 
-Encodeur et décodeur Morse haute performance optimisé pour ODROID-C2.
+Encodeur  Morse haute performance optimisé pour ODROID-C2.
 
 ## Description
 Ce module permet de convertir du texte en signal Morse  en utilisant les capacités GPIO de l'ODROID-C2.
