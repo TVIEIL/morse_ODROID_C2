@@ -27,7 +27,7 @@ Fonctionnement hybride : L'émetteur accepte indifféremment les signaux provena
 ```bash
 git clone https://github.com/TVIEIL/morse_ODROID_C2.git
 cd morse_ODROID_C2/src
-# Instructions de compilation
+# Instructions d'utilisation 
 sudo python morse_GPIO_ODROID_C2.py "CQ CQ CQ DE F4HRB F4HRB F4HRB PSE K"
 ```
 
