@@ -6,6 +6,19 @@ Encodeur et décodeur Morse haute performance optimisé pour ODROID-C2.
 ## Description
 Ce module permet de convertir du texte en signal Morse  en utilisant les capacités GPIO de l'ODROID-C2.
 
+Interface d'émission (Hardware)
+Le système utilise deux optocoupleurs (4N35) pour assurer l'isolation galvanique entre l'ODROID-C2 et l'émetteur radio.
+
+Logique de contrôle :
+
+Le script commande les GPIO (via résistance) vers l'anode des optocoupleurs.
+
+Les collecteurs des phototransistors sont connectés en parallèle des contacts "DOT" et "DASH" du manipulateur manuel.
+
+Le retour commun est relié à la masse (GND) de l'émetteur.
+
+Fonctionnement hybride : L'émetteur accepte indifféremment les signaux provenant du manipulateur manuel (fermeture de contact mécanique) ou du script (fermeture électronique via optocoupleur), sans aucun risque pour l'ODROID-C2.
+
 ## Fonctionnalités
 - Encodage Morse temps réel.
 - Décodage via signal d'entrée (GPIO)
