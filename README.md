@@ -1,3 +1,21 @@
+
+# morse_ODROID_C2
+
+Encodeur et décodeur Morse haute performance optimisé pour ODROID-C2.
+
+## Description
+Ce module permet de convertir du texte en signal Morse (et inversement) en utilisant les capacités GPIO de l'ODROID-C2.
+
+## Fonctionnalités
+- Encodage Morse temps réel.
+- Décodage via signal d'entrée (GPIO).
+- Faible empreinte CPU (optimisé pour ARM).
+
+## Installation
+```bash
+git clone [https://github.com/TVIEIL/morse_ODROID_C2.git](https://github.com/TVIEIL/morse_ODROID_C2.git)
+cd morse_ODROID_C2/src
+# Instructions de compilation (ex: gcc main.c -o morse)
 morse_ODROID_C2
 Python script to command lambic double paddle on a HAM transceiver
 
