@@ -21,7 +21,6 @@ Fonctionnement hybride : L'émetteur accepte indifféremment les signaux provena
 
 ## Fonctionnalités
 - Encodage Morse temps réel.
-- Décodage via signal d'entrée (GPIO)
 - Faible empreinte CPU (optimisé pour ARM).
 
 ## Installation
