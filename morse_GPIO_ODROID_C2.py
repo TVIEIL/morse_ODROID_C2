@@ -6,7 +6,7 @@
  * @Version       : 1.0.0
  * @Author        : Thierry VIEIL
  * @Licence       : Apache License 2.0
- * @Description   : Décodeur/Encodeur Morse pour architecture ARM (ODROID-C2)
+ * @Description   : Encodeur Morse pour architecture ARM (ODROID-C2)
  * ==============================================================================
  */
 
