@@ -1,5 +1,14 @@
 #!/usr/bin/env python
-
+/*
+ * ==============================================================================
+ * @MeshTag       : Natacha_Morse
+ * @Project       : morse_ODROID_C2
+ * @Version       : 1.0.0
+ * @Author        : Thierry VIEIL
+ * @Licence       : Apache License 2.0
+ * @Description   : Décodeur/Encodeur Morse pour architecture ARM (ODROID-C2)
+ * ==============================================================================
+ */
 
 # I modified the code of Nicholas Narsing  soren121/morse.py
 # https://gist.github.com/soren121/c0b7dcb905ae45d4249f
